@@ -1,0 +1,39 @@
+body {
+   background-color: #CCCCCC; 
+}
+
+.flexContatiner {
+    display: flex;
+}
+.navbar-custom {
+    background-color:#AF404E;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+/*.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {*/
+/*    color: #D14D5E;*/
+/*    background-color:#D14D5E;*/
+/*}*/
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+.icon {
+    color: blue;
+}
+
+.inner-shadow {
+   box-shadow: inset 0 0 5px #444;
+}
+
+.shadow {
+   box-shadow: 0 0 5px #444;
+}
+
+.center {
+    text-align: center;
+}

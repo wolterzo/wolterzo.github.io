@@ -1,0 +1,79 @@
+#name {
+    text-align: center;
+    font-size: 10em;
+}
+
+/*#uxUiButton {*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    border-radius: 90px;*/
+/*}*/
+#uxUiButton img {
+    width: 100%;
+}
+#uxUiButton {
+    background-color: #00C6B6;
+}
+
+
+/*#theaterButton {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border-radius: 150px;*/
+/*}*/
+#theaterButton img {
+    width: 100%;
+}
+#theaterButton {
+    background-color: #EFA00B;
+}
+
+/*#photoButton {*/
+/*    width: 120px;*/
+/*    height: 120px;*/
+/*    border-radius: 120px;*/
+/*}*/
+#photoButton img {
+    width: 90%;
+}
+#photoButton {
+    background-color: #AF2A40;
+}
+
+#homeButtons {
+    justify-content: center;
+    align-items: center;
+    /*background-color: #FBB13C;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 0px 0px 5px grey;*/
+}
+
+#homeButtons button {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border-color: transparent;
+    opacity: .6;
+    transition: all 0.2s ease;
+    margin: 20px;
+}
+#homeButtons button:hover {
+    margin: 20px 50px;
+    /*background-color: white;*/
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#homeButtons button:hover + p {
+    opacity: 1;
+    transform: scale(1.3);
+}
+.descriptive {
+    transition: all .2s ease;
+    opacity: .5;
+    text-align: center;
+}
+
+
+
