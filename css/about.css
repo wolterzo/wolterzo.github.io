@@ -1,3 +1,12 @@
 #theater-jumbo {
     background-color: #fbda9d;
 }
+#ux-jumbo {
+    background-color: #82D8D1;
+}
+#about-jumbo {
+    background-color: #FFF; /*#b7a1c4;*/
+}
+#about-section {
+    flex-direction: row;
+}
